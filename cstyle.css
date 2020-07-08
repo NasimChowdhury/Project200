@@ -1,0 +1,118 @@
+.course-area {
+	overflow: hidden;
+	margin-left:50px;
+}
+.course-single-box {
+	width: 370px;
+	background-color: #F6F6F6;
+	float: left;
+	margin-left: 30px;
+	border-top: 4px solid #F0441F;
+}
+.course-single-box h2 {
+	font-size: 28px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 15px;
+}
+.course-single-box p{
+	text-align: center;
+}
+.cname {
+	background-color: #F0441F;
+	margin-top: 36px;
+	position:relative;
+}
+.cname::before {
+	position: absolute;
+	content: "";
+	width: 45px;
+	height: 45px;
+	background-color: #F0441F;
+	left: 50%;
+	margin-left: -22.5px;
+	top: 80px;
+	transform: rotate(45deg);
+}
+.cname h2 {
+	color: #ffffff;
+	text-align: center;
+	padding: 34px 0px;
+	font-size: 40px;
+}
+.cname span {
+	font-size: 16px;
+}
+.course-single-box ul{
+	margin-top: 55px;
+}
+.course-single-box ul li {
+	padding: 20px 0px;
+	font-size: 20px;
+	color: #000;
+	border-bottom: 1px solid #ddd;
+	text-align: center;
+}
+.course-single-box ul li i.fa{
+	font-size: 16px;
+}
+.course-single-box a {
+	color: #FFFFFF;
+	background-color: ;
+	background-color: #F0441F;
+	display: inline-block;
+	padding: 15px 35px 15px 35px;
+	margin-left: 90px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	border-radius: 8px;
+}
+.course-single-box a i.fa {
+	color: #F0441F;
+	background-color: #FFFFFF;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	padding: 3px;
+}
+.course-single-box h4{
+	margin-left:33px;
+}
+.section {
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.section h1 {
+	font-size: 38px;
+	color: #000000;
+	padding-bottom: 50px;
+	position:relative;
+}
+.section h1::before {
+	position: absolute;
+	content: "";
+	width: 140px;
+	height: 3px;
+	background-color: #F0441F;
+	right: 50%;
+	margin-right: -70px;
+	bottom: 20px;
+}
+.section h1::after {
+	position: absolute;
+	content: "";
+	width: 70px;
+	height: 13px;
+	background-color: #F0441F;
+	left: 50%;
+	margin-left: -35px;
+	bottom: 15px;
+}
+.section p {
+	font-size: 18px;
+	color: #000;
+	padding-top: 20px;
+	word-spacing: 4px;
+}

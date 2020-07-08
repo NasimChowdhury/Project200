@@ -1,0 +1,148 @@
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body {background-color: #420420;}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+p{
+	font-family: 'Rokkitt', serif;
+	color:white;
+}
+h1, h2, h3, h4, h5, h6{
+	text-align: center;
+	text-transform: capitalize;
+	font-family: 'Righteous', cursive;
+	color:white;
+}
+
+.area-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.area-title h4 {
+  font-weight: 300;
+}
+.area-title h2 {
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	position: relative;
+	display: inline-block;
+	margin-bottom: 12px;
+	padding-bottom: 12px;
+}
+.area-title h2::before {
+	position: absolute;
+	content: "";
+	width: 50px;
+	height: 6px;
+	background-color: indianred;
+	left: 50%;
+	bottom: 0;
+	margin-left: -25px;
+}
+.area-title h2::after {
+	position: absolute;
+	content: "";
+	width: 130px;
+	height: 2px;
+	background-color: gray;
+	bottom: 0px;
+	left: 50%;
+	margin-left: -65px;
+}
+.area-inner {
+	float: left;
+	margin-right: 20px;
+	margin-left:50px;
+	width: 250px;
+	margin-bottom: 50px;
+	position: relative;
+	transition: 0.7s;
+}
+.area-inner img {
+	width: 100%;
+	height: 250px;
+}
+.area-inner h2 {
+	color: indianred;
+}
+.area-inner a{
+	color: indianred;
+}
+.logo-left a:hover, a.box-btn:hover, a.border-btn:hover,  .menu ul li a:hover{
+	background-color:DarkGrey;
+	color: red;
+}
+.area-inner:hover{
+	transform:scale(1.1);
+}
+.area-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.area-title h4 {
+  font-weight: 300;
+}
+.area-title h2 {
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	position: relative;
+	display: inline-block;
+	margin-bottom: 12px;
+	padding-bottom: 12px;
+}
+.area-title h2::before {
+	position: absolute;
+	content: "";
+	width: 50px;
+	height: 6px;
+	background-color: indianred;
+	left: 50%;
+	bottom: 0;
+	margin-left: -25px;
+}
+.area-title h2::after {
+	position: absolute;
+	content: "";
+	width: 130px;
+	height: 2px;
+	background-color: gray;
+	bottom: 0px;
+	left: 50%;
+	margin-left: -65px;
+}
+.area-inner {
+	float: left;
+	margin-right: 20px;
+	margin-left:120px;
+	width: 250px;
+	margin-bottom: 50px;
+	position: relative;
+	transition: 0.7s;
+}
+.area-inner img {
+	width: 100%;
+	height: 250px;
+}
+.area-inner h2 {
+	color: indianred;
+}
+.area-inner a{
+	color: indianred;
+}
+.logo-left a:hover, a.box-btn:hover, a.border-btn:hover,  .menu ul li a:hover{
+	background-color:DarkGrey;
+	color: red;
+}
+.area-inner:hover{
+	transform:scale(1.1);
+}

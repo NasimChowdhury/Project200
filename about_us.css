@@ -1,0 +1,20 @@
+body
+{
+	color:gray;
+	size:50px;
+	text:bold;
+	text-align:center;
+	
+}
+p{
+	text-align:center;
+	text:bold;
+	margin:50px 50px 50px 50px;
+	
+}
+h1
+{
+	text-align:center;
+	tex-style:bold;
+	margin-top:50px;
+}
